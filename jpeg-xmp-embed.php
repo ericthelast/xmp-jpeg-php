@@ -24,8 +24,6 @@
  * individual files with specific feed formats or all files. Check the usage
  * options for more information.
  *
- * TODO: Add script for printing info about a jpeg file.
- *
  */
  
 // Turn off Error Reporting
@@ -70,6 +68,7 @@ function print_help ()
          "  -f [FILENAME]\t\tA jpeg image file of your choosing.\n",
          "  -x [FILENAME]\t\tAn XMP XML file of your choosing.\n",
          "  -o [FILENAME]\t\tThe file to output new jpeg.\n",
+         /* "  -m \t\tMerges old xmp with new xmp.\n", */
          "\nPossible Usages: \n\n",
          "Example 1: This embeds new XMP file into JPEG \n",
          "and outputs to new file. \n\n",
@@ -150,6 +149,17 @@ function embed_xmp ($filename_jpeg, $filename_xmp, $filename_out, $merge_xmp)
         print_message("Couldn't write new file out with new metadata.");
 }
 
+/**
+ * This merges old xmp array with a new xmp array, but currently returns only
+ * false.
+ *
+ * @todo Need to finish this so it graphs RDF and then intelligently combines
+ * and asks user for decisions on merge if necessary.
+ * 
+ * @param array $xmp_array_orig Array of old xmp info.
+ * @param array $xmp_array_new Array of new xmp info.
+ * @returns mixed Array if it merges ok, otherwise false.
+ */
 function merge_xmp_arrays ($xmp_array_orig, $xmp_array_new)
 {
     return FALSE;
@@ -180,6 +190,7 @@ if ( count($opt) == 0 || isset($opt['h']) ||
 if ( isset($opt['v']) )
     $_GLOBALS['verbose'] = true;
 
+// embed that XMP boyeeee!
 embed_xmp ($opt['f'], $opt['x'], $opt['o'], isset($opt['m']));
 
 
