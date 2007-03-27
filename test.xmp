@@ -1,23 +1,26 @@
-<?xpacket begin='' id=''?><x:xmpmeta xmlns:x="adobe:ns:meta/">
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xpacket begin='' id=''?><x:xmpmeta xmlns:x='adobe:ns:meta/'>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
 
- <rdf:description rdf:about="" xmlns:xaprights="http://ns.adobe.com/xap/1.0/rights/">
-  <xaprights:Marked>True</xaprights:Marked>
-  <xaprights:WebStatement>http://creativecommons.org/licenses/by/2.5/</xaprights:WebStatement>
- </rdf:description>
+ <rdf:Description rdf:about=''
+  xmlns:xapRights='http://ns.adobe.com/xap/1.0/rights/'>
+  <xapRights:Marked>True</xapRights:Marked>
+ </rdf:Description>
 
- <rdf:description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <rdf:Description rdf:about=''
+  xmlns:dc='http://purl.org/dc/elements/1.1/'>
   <dc:rights>
-   <rdf:alt>
-    <rdf:li xml:lang="x-default">This StillImage is licensed to the public under the Creative Commons Attribution 2.5  License.</rdf:li>
-   </rdf:alt>
+   <rdf:Alt>
+    <rdf:li xml:lang='x-default' >This work is licensed under a Creative Commons Attribution 3.0  License.</rdf:li>
+   </rdf:Alt>
   </dc:rights>
- </rdf:description>
+ </rdf:Description>
 
- <rdf:description rdf:about="" xmlns:cc="http://web.resource.org/cc/">
-  <cc:license rdf:resource="http://creativecommons.org/licenses/by/2.5/" />
- </rdf:description>
+ <rdf:Description rdf:about=''
+  xmlns:cc='http://web.resource.org/cc/'>
+  <cc:license rdf:resource='http://creativecommons.org/licenses/by/3.0/'/>
+ </rdf:Description>
 
 </rdf:RDF>
 </x:xmpmeta>
 <?xpacket end='r'?>
+
