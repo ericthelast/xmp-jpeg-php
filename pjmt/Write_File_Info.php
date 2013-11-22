@@ -90,7 +90,7 @@
 
 
                         // Copy all of the HTML Posted variables into an array
-                        $new_ps_file_info_array = $GLOBALS['HTTP_POST_VARS'];
+                        $new_ps_file_info_array = $_POST;
 
                         // Some characters are escaped with backslashes in HTML Posted variable
                         // Cycle through each of the HTML Posted variables, and strip out the slashes
